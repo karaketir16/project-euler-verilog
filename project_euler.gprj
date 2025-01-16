@@ -6,5 +6,6 @@
     <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
     <FileList>
         <File path="src/p0001.v" type="file.verilog" enable="1"/>
+        <File path="src/p0002.v" type="file.verilog" enable="1"/>
     </FileList>
 </Project>

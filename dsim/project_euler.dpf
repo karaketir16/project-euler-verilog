@@ -7,10 +7,16 @@ design_root_dir: ../
 simulations:
   - name: p0001
     options: '-top work.p0001_tb +acc+b -waves waves_p0001.mxd'
+  - name: p0002
+    options: '-top work.p0002_tb +acc+b -waves waves_p0002.mxd'
 source_files:
   - language: verilog
     path: ..\src\p0001.v
   - language: verilog
     path: ..\tb\p0001_tb.v
+  - language: verilog
+    path: ..\tb\p0002_tb.v
+  - language: verilog
+    path: ..\src\p0002.v
 library_search_paths:
   - $STD_LIBS\ieee93
