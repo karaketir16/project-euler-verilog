@@ -7,5 +7,6 @@
     <FileList>
         <File path="src/p0001.v" type="file.verilog" enable="1"/>
         <File path="src/p0002.v" type="file.verilog" enable="1"/>
+        <File path="src/p0003.v" type="file.verilog" enable="1"/>
     </FileList>
 </Project>
