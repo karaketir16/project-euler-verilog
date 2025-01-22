@@ -11,18 +11,11 @@ simulations:
     options: '-top work.p0002_tb +acc+b -waves waves_p0002.mxd'
   - name: is_prime
     options: '-top work.is_prime_tb +acc+b -waves waves_is_prime.mxd'
+  - name: p0003
+    options: '-top work.p0003_tb +acc+b -waves waves_p0003.mxd'
 source_files:
   - language: verilog
-    path: ..\src\p0001.v
-  - language: verilog
-    path: ..\tb\p0001_tb.v
-  - language: verilog
-    path: ..\tb\p0002_tb.v
-  - language: verilog
-    path: ..\src\p0002.v
-  - language: verilog
-    path: ..\tb\is_prime_tb.v
-  - language: verilog
-    path: ..\src\is_prime.v
+    path: ..\filelist.txt
+    file_list: relative-to-file
 library_search_paths:
   - $STD_LIBS\ieee93

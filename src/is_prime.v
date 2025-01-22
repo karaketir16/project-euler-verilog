@@ -2,7 +2,7 @@ module is_prime(
         input clk,
         input start,
         input [31:0] value,
-        output reg result,
+        output reg result = 0,
         output reg done = 0
     );
 
@@ -15,6 +15,7 @@ always @(posedge clk) begin
     if (start == 1 && prev_start == 0) begin
         counter <= 2;
         done <= 0;
+        result <= 0;
     end 
     else if ( done ) begin
     
