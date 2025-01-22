@@ -1,6 +1,6 @@
 module p0003(
         input clk,
-        output reg [39:0] result,
+        output wire [39:0] result,
         output reg done = 0
     );
 
