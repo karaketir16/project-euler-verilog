@@ -4,7 +4,9 @@ tb/is_prime_tb.v
 src/p0001.v
 src/p0002.v
 src/p0003.v
+src/p0004.v
 
 tb/p0001_tb.v
 tb/p0002_tb.v
 tb/p0003_tb.v
+tb/p0004_tb.v
