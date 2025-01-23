@@ -6,9 +6,11 @@ src/p0002.v
 src/p0003.v
 src/p0004.v
 src/p0005.v
+src/p0006.v
 
 tb/p0001_tb.v
 tb/p0002_tb.v
 tb/p0003_tb.v
 tb/p0004_tb.v
 tb/p0005_tb.v
+tb/p0006_tb.v
