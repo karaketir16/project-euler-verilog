@@ -5,16 +5,18 @@ version: '0.2'
 work_dir: .
 design_root_dir: ../
 simulations:
+  - name: is_prime
+    options: '-top work.is_prime_tb +acc+b -waves waves_is_prime.mxd'
   - name: p0001
     options: '-top work.p0001_tb +acc+b -waves waves_p0001.mxd'
   - name: p0002
     options: '-top work.p0002_tb +acc+b -waves waves_p0002.mxd'
-  - name: is_prime
-    options: '-top work.is_prime_tb +acc+b -waves waves_is_prime.mxd'
   - name: p0003
     options: '-top work.p0003_tb +acc+b -waves waves_p0003.mxd'
   - name: p0004
     options: '-top work.p0004_tb +acc+b -waves waves_p0004.mxd'
+  - name: p0005
+    options: '-top work.p0005_tb +acc+b -waves waves_p0005.mxd'
 source_files:
   - language: verilog
     path: ..\filelist.txt
