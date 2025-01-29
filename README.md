@@ -22,6 +22,7 @@ As a computer engineer learning digital design, I wanted a fun and practical way
 | Problem 5      | Solved | Verified in simulation |  
 | Problem 6      | Solved | Verified in simulation |  
 | Problem 7      | Solved | Verified in simulation |  
+| Problem 8      | Solved | Verified in simulation |  
 
 ---
 

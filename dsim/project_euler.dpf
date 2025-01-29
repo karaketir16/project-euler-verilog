@@ -21,6 +21,8 @@ simulations:
     options: '-top work.p0006_tb +acc+b -waves waves_p0006.mxd'
   - name: p0007
     options: '-top work.p0007_tb +acc+b -waves waves_p0007.mxd'
+  - name: p0008
+    options: '-top work.p0008_tb +acc+b -waves waves_p0008.mxd'
 source_files:
   - language: verilog
     path: ..\filelist.txt

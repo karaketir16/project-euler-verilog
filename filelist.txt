@@ -8,6 +8,7 @@ src/p0004.v
 src/p0005.v
 src/p0006.v
 src/p0007.v
+src/p0008.v
 
 tb/p0001_tb.v
 tb/p0002_tb.v
@@ -16,3 +17,4 @@ tb/p0004_tb.v
 tb/p0005_tb.v
 tb/p0006_tb.v
 tb/p0007_tb.v
+tb/p0008_tb.v
