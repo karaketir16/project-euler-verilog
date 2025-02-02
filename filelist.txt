@@ -1,6 +1,9 @@
 src/is_prime.v
 tb/is_prime_tb.v
 
+src/factor_count.v
+tb/factor_count_tb.v
+
 src/p0001.v
 src/p0002.v
 src/p0003.v
@@ -13,6 +16,7 @@ src/p0009.v
 src/p0010.v
 src/p0011.v
 src/p0011_v2.v
+src/p0012.v
 
 tb/p0001_tb.v
 tb/p0002_tb.v
@@ -26,3 +30,4 @@ tb/p0009_tb.v
 tb/p0010_tb.v
 tb/p0011_tb.v
 tb/p0011_v2_tb.v
+tb/p0012_tb.v
