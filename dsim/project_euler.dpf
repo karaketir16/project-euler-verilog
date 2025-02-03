@@ -31,8 +31,8 @@ simulations:
     options: '-top work.p0011_tb +acc+b -waves waves_p0011.mxd'
   - name: p0011_v2
     options: '-top work.p0011_v2_tb +acc+b -waves waves_p0011_v2.mxd'
-  - name: p0012
-    options: '-top work.p0012_tb +acc+b -waves waves_p0012.mxd'
+  - name: p0013
+    options: '-top work.p0013_tb +acc+b -waves waves_p0013.mxd'
   - name: factor_count
     options: '-top work.factor_count_tb +acc+b -waves waves_factor_count.mxd'
 source_files:
