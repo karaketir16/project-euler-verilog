@@ -35,6 +35,8 @@ simulations:
     options: '-top work.p0013_tb +acc+b -waves waves_p0013.mxd'
   - name: factor_count
     options: '-top work.factor_count_tb +acc+b -waves waves_factor_count.mxd'
+  - name: p0013_v2
+    options: '-top work.p0013_v2_tb +acc+b -waves waves_p0013_v2.mxd'
 source_files:
   - language: verilog
     path: ..\filelist.txt
